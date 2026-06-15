@@ -50,6 +50,11 @@ const Skill = () => {
         </div>
 
         <div className="skill-card">
+          <i className="devicon-tailwindcss-original colored"></i>
+          <p>Tailwind CSS</p>
+        </div>
+
+        <div className="skill-card">
           <i className="devicon-javascript-plain js"></i>
           <p>JavaScript</p>
         </div>
@@ -88,16 +93,6 @@ const Skill = () => {
           <i className="devicon-figma-plain figma"></i>
           <p>Figma</p>
         </div>
-
-        <a
-          href="https://www.skillrack.com/faces/resume.xhtml?id=525877&key=98edabe72a0d5eca65988b852eae3c35fe12a905"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="skill-card"
-        >
-          <img src="/icons/Skillrack.jpg" alt="Skillrack" className="custom-icon" />
-          <p>Skillrack</p>
-        </a>
 
         <a
           href="https://leetcode.com/u/Sahasra_Oliyarasi/"
