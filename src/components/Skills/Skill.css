@@ -104,7 +104,8 @@
 
 /* ICON */
 .skill-card i,
-.custom-icon {
+.custom-icon,
+.skill-icon{
   font-size: 2rem;
   margin-bottom: 0.5rem;
   transition: transform 0.15s ease-out;
@@ -113,7 +114,8 @@
 
 /* ICON POP */
 .skill-card:hover i,
-.skill-card:hover .custom-icon {
+.skill-card:hover .custom-icon,
+.skill-card:hover .skill-icon{
   transform: scale(1.2) rotate(-4deg);
 }
 
