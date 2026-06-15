@@ -50,7 +50,11 @@ const Skill = () => {
         </div>
 
         <div className="skill-card">
-          <i className="devicon-tailwindcss-original colored"></i>
+          <img
+            src="/icons/tailwind-removebg-preview.png"
+            alt="Tailwind CSS"
+            className="skill-icon"
+          />
           <p>Tailwind CSS</p>
         </div>
 
